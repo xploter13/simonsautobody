@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simons Auto Body</title>
-    <link rel="stylesheet" href="assets/bootstrap.4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="./assets/bootstrap.4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
 </head>
 
 <body>
