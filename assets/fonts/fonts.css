@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@font-face {
+    font-family: nexaThin;
+    src: url('Nexa\ Thin.otf');
+}
+
+@font-face {
+    font-family: nexaLight;
+    src: url('Nexa\ Light_1.otf');
+}
+
+@font-face {
+    font-family: nexaRegular;
+    src: url('Nexa\ Regular.otf');
+}
+
+@font-face {
+    font-family: nexaBold;
+    src: url('Nexa\ Bold_1.otf');
+}
+
+@font-face {
+    font-family: nexaBlack;
+    src: url('Nexa\ Black.otf');
+}

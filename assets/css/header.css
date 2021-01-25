@@ -1,0 +1,25 @@
+/* MENU */
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar {
+    min-height: 100px;
+}
+
+.navbar .navbar-nav li a {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+}
+
+.navbar .navbar-nav li a.active {
+    color: #df040b !important;
+}
+
+.navbar .navbar-brand img {
+    width: 35%;
+    height: auto;
+}
