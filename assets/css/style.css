@@ -112,6 +112,10 @@ body {
     font-family: 'nexaBlack';
 }
 
+.title-2 {
+    font-family: 'nexaBold';
+}
+
 .border-radius-0 {
     border-radius: 0;
 }
@@ -202,6 +206,91 @@ span.img-text {
 
 span.img-text:hover {
     color: #2caae1;
+}
+
+.owl-carousel-testimonials .owl-item img.card-img-top {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 2px #e3212a solid;
+    padding: 5px;
+}
+
+.owl-carousel-testimonials .owl-item .quote-left img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: -200px;
+}
+
+.owl-carousel-testimonials .owl-item .quote-right img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -10px;
+    right: -200px;
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: #002553;
+    color: #fff;
+    font-family: 'nexaBold';
+}
+
+.footer .logo-footer {
+    width: 120px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.footer .list-info-contact {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.footer .list-info-contact li {
+    line-height: 40px;
+}
+
+.footer .list-info-contact a.btn-email {
+    background-color: #e3212a;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+}
+
+.footer .list-social-icons {
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer .list-social-icon li a {
+    color: #fff;
+}
+
+.footer .fa-facebook-f {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 6px 9px;
+}
+
+.footer i.fa-instagram {
+    font-size: 30px;
+    position: relative;
+    top: 6.5px;
 }
 
 

@@ -295,6 +295,85 @@ magna aliqua.</h2>
         </div>
     </section>
 
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 p-0">
+                    <img src="<?php echo base_url(); ?>assets/images/thumbs/4.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="<?php echo base_url(); ?>assets/images/thumbs/5.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="<?php echo base_url(); ?>assets/images/thumbs/6.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sc-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Set up your HTML -->
+                    <div class="owl-carousel owl-carousel-testimonials">
+                        <div>
+                            <div class="card box-shadow-none">
+                                <img src="<?php echo base_url(); ?>assets/images/testimonials/1.png" class="card-img-top" alt="..." />
+                                <div class="card-body text-center">
+                                    <h5 class="title-2">Fulano da Silva</h5>
+                                    <p class="card-text title-2">
+                                        <span class="quote-left"><img src="<?php echo base_url(); ?>assets/images/icons/quote-left.png" alt=""></span> 
+                                        Some quick example text to build on the card <br> title and make up the bulk of the card's <br>  content.
+                                        <span class="quote-right"><img src="<?php echo base_url(); ?>assets/images/icons/quote-right.png" alt=""></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?php echo base_url(); ?>assets/images/logo-white.png" class="logo-footer" alt="">
+                    <p class="f-14">Simon’s Auto Body specializes in automotive repair, keeping in vision the restoration of the vehicle that suffered from the smallest scratch to the biggest collision; offering complete cosmetic services.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="title text-uppercase">Contact</h4>
+                    <ul class="list-info-contact">
+                        <li>37 Waverly Street, Framingham, MA, ZIP 01702</li>
+                        <li><a href="#" class="btn-email">service@simonsautobody.com</a></li>
+                        <li>(508) 624-4362</li>
+                        <li>(508) 624-4365</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="title text-uppercase">Social Media</h4>
+                    <ul class="list-inline list-social-icon mt-4">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <form class="form-inline">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="staticEmail2" class="sr-only">Sign up for our Newsletter</label>
+                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- SCRIPT -->
     <?php $this->load->view('public/includes/scripts'); ?>
 </body>
