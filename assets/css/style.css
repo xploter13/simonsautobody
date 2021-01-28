@@ -56,12 +56,34 @@ body {
     background-color: #e6e6e6;
 }
 
+.bg-grayscale-light {
+    background-color: #dedede;
+}
+
 .bg-none {
     background-color: transparent !important;
 }
 
+.bg-blue {
+    background-color: #002553;
+}
+
+.bg-blue.shape-car-collision {
+    background: #002553 url('../images/shape/car.png') 100% 0px no-repeat;
+    padding: 40px 0 80px 0;
+    color: #fff;
+}
+
 .text-grayscale {
     color: #41516a;
+}
+
+.text-yellow {
+    color: #ffa600;
+}
+
+.text-yellow span {
+    color: #fff;
 }
 
 
@@ -95,6 +117,10 @@ body {
     font-size: 22px;
 }
 
+.f-90 {
+    font-size: 90px;
+}
+
 
 /*********************************
 * GENERAL
@@ -108,12 +134,52 @@ body {
     box-shadow: none;
 }
 
+.w-40 {
+    width: 40%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
 .title {
     font-family: 'nexaBlack';
 }
 
 .title-2 {
     font-family: 'nexaBold';
+}
+
+.text-line-height {
+    line-height: 0.85;
+}
+
+.text-outline {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.text-outline span {
+    color: #fff;
+}
+
+.header-collision {
+    background-image: url('../images/backgrounds/bg-collision.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card-item {
+    text-align: center;
+    color: #002553;
+}
+
+.card-item img {
+    border-bottom: 2px solid #002553;
+    padding-bottom: 10px;
 }
 
 .border-radius-0 {
@@ -240,6 +306,29 @@ span.img-text:hover {
     right: -200px;
 }
 
+.sc-util {
+    background-image: url('../images/backgrounds/bg-collision-2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0 80px 0;
+    color: #fff
+}
+
+.sc-util.bg-1 {
+    background-image: url('../images/backgrounds/bg-collision-3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sc-util.bg-2 {
+    background-image: url('../images/backgrounds/bg-collision-4.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .footer {
     padding: 40px 0 40px 0;
     background-color: #002553;
@@ -302,5 +391,8 @@ span.img-text:hover {
     .navbar .navbar-brand img {
         width: 100%;
         height: auto;
+    }
+    .f-90 {
+        font-size: 60px;
     }
 }
